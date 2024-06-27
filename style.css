@@ -1,0 +1,39 @@
+.heading{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(151, 15, 15);
+    font-size: 40px;
+}
+.task-input{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.task{
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    height: 25px;
+    font-size: 17px;
+    border: solid;
+    border-width: 2px;
+    border-color: brown;
+    background-color: #f0f0f0;
+}
+.add{
+    width: 100px;
+    height: 45px;
+    color: green;
+    font-size: 17px;
+    border: none;
+    background-color: rgba(44, 197, 44, 0.748);
+    border-radius: 8px;
+}
+.add:hover{
+    background-color: #f0f0f0;
+    border: solid;
+    border-color: rgba(44, 197, 44, 0.748);
+    color: green;
+    border-width: 2px;
+    border-radius: 8px;
+}
